@@ -1,0 +1,10 @@
+﻿using System;
+namespace MauiBlazor
+{
+	public class TodoItem
+	{
+        public string? Title { get; set; }
+        public bool IsDone { get; set; }
+    }
+}
+
