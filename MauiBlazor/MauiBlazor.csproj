@@ -46,4 +46,14 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Model\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Model\" />
+	  <Folder Include="wwwroot\img\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Content Remove="wwwroot\img\" />
+	</ItemGroup>
 </Project>
