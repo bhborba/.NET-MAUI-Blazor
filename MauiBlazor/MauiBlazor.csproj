@@ -55,5 +55,6 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <Content Remove="wwwroot\img\" />
+	  <Content Remove="Pages\Index.cshtml" />
 	</ItemGroup>
 </Project>

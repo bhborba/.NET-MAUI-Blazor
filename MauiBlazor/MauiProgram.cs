@@ -22,7 +22,10 @@ public static class MauiProgram
 		
 		builder.Services.AddSingleton<WeatherForecastService>();
 
-		return builder.Build();
+        // Register the pizzas service
+        builder.Services.AddSingleton<PizzaService>();
+
+        return builder.Build();
 	}
 }
 
