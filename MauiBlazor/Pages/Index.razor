@@ -1,22 +1,8 @@
 ﻿@page "/"
 
-<div class="main">
-    <h1 class="mt-2 text-slate-500">Blazing Pizzas</h1>
-    <ul class="pizza-cards">
-        @if (specials != null)
-        {
-            @foreach (var special in specials)
-            {
-                <li style="background-image: url('@special.ImageUrl')">
-                    <div class="pizza-info">
-                        <span class="title">@special.Name</span>
-                        @special.Description
-                        <span class="price">@special.GetFormattedBasePrice()</span>
-                    </div>
-                </li>
-            }
-        }
-    </ul>
+<div>
+    <h1 class="text-4xl">Application</h1>
+    <button class="border-2 border-black rounded-md w-full h-12 focus:bg-gray-300 font-bold">Create</button>
 </div>
 
 @code {
