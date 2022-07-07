@@ -48,10 +48,12 @@
 
 	<ItemGroup>
 	  <None Remove="Model\" />
+	  <None Remove="Styles\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Model\" />
 	  <Folder Include="wwwroot\img\" />
+	  <Folder Include="Styles\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Content Remove="wwwroot\img\" />

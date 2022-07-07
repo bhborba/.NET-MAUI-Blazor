@@ -6,6 +6,7 @@ namespace MauiBlazor.Data
         public Task<Pizza[]> GetPizzasAsync()
         {
             // Call your data access technology here
+            throw new Exception();
         }
     }
 }
